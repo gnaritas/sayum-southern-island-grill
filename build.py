@@ -106,7 +106,7 @@ def crumb(name, slug=None):
 def mapblock(note):
     return ('<div class="mapcell"><iframe src="https://www.google.com/maps?q=' + ADDR_Q +
             '&output=embed" title="Map: SaYum Southern Island Grill, 408 Nash Street, '
-            'Wilson, North Carolina 27893" loading="lazy"></iframe>'
+            'Wilson, North Carolina 27893"></iframe>'
             '<p class="mapnote">' + note + '</p></div>')
 
 REST = {
