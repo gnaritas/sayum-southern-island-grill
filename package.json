@@ -1,0 +1,8 @@
+{
+  "name": "sayum-southern-island-grill",
+  "version": "1.0.0",
+  "description": "SaYum Southern Island Grill — Jamaican classics + American soul food, 408 Nash St, Wilson NC (static site + node form relay)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
