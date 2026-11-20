@@ -218,11 +218,11 @@ menu_body = (
     '<section class="block"><div class="wrap"><div class="boards">'
     '<div class="board"><h3>Jamaican classics</h3><ul>' +
     "".join("<li>%s</li>" % d for d in JAM) +
-    '<p class="fine">Kept from the SaYum Jamaican Restaurant board — the plates customers '
-    'asked to stay.</p></ul></div>'
+    '</ul><p class="fine">Kept from the SaYum Jamaican Restaurant board — the plates customers '
+    'asked to stay.</p></div>'
     '<div class="board green"><h3>American soul food</h3><ul>' +
     "".join("<li>%s</li>" % d for d in SOUL) +
-    '<p class="fine">New plates joining the kitchen for the reopening.</p></ul></div>'
+    '</ul><p class="fine">New plates joining the kitchen for the reopening.</p></div>'
     '</div><p class="pricenote">Sides are listed with the soul food plates; plated combos '
     'pairing Caribbean recipes with Southern sides are the plan for the board. Menu items '
     'as announced to Business Debut, November 17, 2026.</p></div></section>'
@@ -253,7 +253,7 @@ jam_body = (
     'plates. Under the SaYum Southern Island Grill name they stay on the board — the '
     'dishes customers asked to keep.</p>'
     '<div class="ctarow"><a class="btn dark" href="/menu">Full announced menu</a>'
-    '<a class="btn" href="tel:%s">Call %s</a></div></div>'
+    '<a class="btn" href="tel:' + PHONE_T + '">Call ' + PHONE_D + '</a></div></div>'
     '<section class="block"><div class="wrap"><div class="boards">'
     '<div class="board"><h3>From the original board</h3><ul>' +
     "".join("<li>%s</li>" % d for d in JAM) +
@@ -285,7 +285,7 @@ soul_body = (
     'that’s what I’m gonna do,” Yvonne Collins told Business Debut. These are the '
     'Southern classics she is bringing to the board.</p>'
     '<div class="ctarow"><a class="btn dark" href="/menu">Full announced menu</a>'
-    '<a class="btn" href="tel:%s">Call %s</a></div></div>'
+    '<a class="btn" href="tel:' + PHONE_T + '">Call ' + PHONE_D + '</a></div></div>'
     '<section class="block"><div class="wrap"><div class="boards">'
     '<div class="board green"><h3>Hitting the board</h3><ul>' +
     "".join("<li>%s</li>" % d for d in SOUL) +
